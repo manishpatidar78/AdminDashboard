@@ -17,7 +17,6 @@ const renderActiveShape = (props: any) => {
     outerRadius,
     startAngle,
     endAngle,
-    fill,
     payload,
   } = props;
 
@@ -48,7 +47,7 @@ const renderActiveShape = (props: any) => {
   );
 };
 
-export default function PieChart_round() {
+export default function PieChartRound() {
   const [activeIndex, setActiveIndex] = useState(0);
   const onPieEnter = useCallback(
     (_, index) => {

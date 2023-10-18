@@ -1,6 +1,6 @@
 import React from 'react'
 import 
- {BsFillBellFill, BsFillEnvelopeFill, BsPersonCircle, BsSearch, BsJustify}
+ { BsSearch, BsJustify}
  from 'react-icons/bs'
 import { HiHand} from 'react-icons/hi'
 

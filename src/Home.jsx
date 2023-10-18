@@ -4,11 +4,10 @@ import {BsChevronDown} from "react-icons/bs";
 import {
   BarChart,
   Bar,
-  XAxis,
-  ResponsiveContainer,
+  XAxis
 } from "recharts";
 import ProductList from "./ProductList";
-import PieChart_round from "./PieChart_round";
+import PieChartRound from "./PieChartRound";
 
 function Home() {
   const data = [
@@ -86,14 +85,6 @@ function Home() {
       amt: 2100,
     },
   ];
-
-  const data1 = [
-    { name: "Group A", value: 400 },
-    { name: "Group B", value: 300 },
-    { name: "Group C", value: 300 },
-    { name: "Group D", value: 200 },
-  ];
-  const COLORS = ["#000", "#00C49F", "#FFBB28", "#FF8042"];
 
   return (
     <main className="main-container">
@@ -191,7 +182,7 @@ function Home() {
       </div>
         <div className="charts"> 
         {/* <ResponsiveContainer width="100%" height="100%"> */}
-         <PieChart_round />
+         <PieChartRound />
         {/* </ResponsiveContainer> */}
         </div>    
         </div>  

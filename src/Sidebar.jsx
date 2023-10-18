@@ -7,9 +7,9 @@ import {
   BsFillArchiveFill, 
   BsPeopleFill,
   BsWalletFill,
-  BsListCheck,
   BsMenuButtonWideFill,
-  BsFillGearFill,BsFillPatchQuestionFill, BsChevronRight
+  BsFillPatchQuestionFill,
+  BsChevronRight
 } from "react-icons/bs";
 
 function Sidebar({ openSidebarToggle, OpenSidebar }) {
